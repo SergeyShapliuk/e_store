@@ -1,0 +1,6 @@
+.footer {
+    width: 100%;
+    /*height: 215px;*/
+    grid-area: f;
+    border: 2px red solid;
+}

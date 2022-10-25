@@ -1,5 +1,20 @@
 .App {
-  /*text-align: center;*/
+    width: 1366px;
+    max-width: 100%;
+    /*min-width: 350px;*/
+    /*min-height: 1771px;*/
+    display: grid;
+    grid-template-rows: 82px 100vh 215px;
+    grid-template-columns: 74.1% 25.5%;
+    gap: 0 0;
+    grid-template-areas:
+    "h s"
+    "m s"
+    "f f";
+    margin: 0 auto;
+    border: 2px #2967FF solid;
+
+
 }
 
 

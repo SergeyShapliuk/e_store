@@ -1,0 +1,145 @@
+.headerContainer {
+    /*position: relative;*/
+    grid-area: h;
+    /*width: 1014px;*/
+    width: 100%;
+    /*min-width: 350px;*/
+    /*height: 82px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin: 0 auto;*/
+    /*border: 2px #d9c0c0 solid;*/
+}
+.text{
+    /*position: absolute;*/
+    /*width: 103px;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*height: 43px;*/
+    /*font-family: Raleway sans-serif;*/
+    /*padding: 10px;*/
+    margin-bottom: 10px;
+    font-style: normal;
+   font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+    text-align: left;
+}
+.location {
+    display: flex;
+    width: 164px;
+    max-width: 100%;
+    min-width: 70px;
+}
+
+.location img {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+
+}
+
+.cityName {
+    margin-left: 5px;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: left;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    margin: 10px;
+    width: 468px;
+    /*max-width: 100%;*/
+    min-width: 96px;
+/*background-color: #2967FF;*/
+}
+
+.inputSearch {
+    /*position: absolute;*/
+    width: 100%;
+    height: 46px;
+    border: 1px solid #F0F4FB;
+    border-radius: 36px;
+    /*padding: 15px;*/
+    padding: 0 15px 0 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+
+}
+
+.inputSearch:focus-visible {
+    outline: none;
+}
+
+.buttonSearch {
+    position: absolute;
+    /*max-width: 100%;*/
+    width: 94px;
+
+    height: 42px;
+    top: 50%;
+    right: 4px;
+    transform: translateY(-50%);
+    background: #F0F4FB;
+    border-radius: 41px;
+    /*margin-left: 20px;*/
+    /*padding: 10px 38px;*/
+    border: none;
+    cursor: pointer;
+}
+
+.basket {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*width: 100%;*/
+    max-width: 50px;
+    min-width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 1px solid #727280;
+    cursor: pointer;
+    /*background-color: red;*/
+}
+
+.basket img {
+    /*position: absolute;*/
+    /*left: -1px;*/
+}
+
+.countProducts {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 14px;
+    color: #2967FF;
+}
+
+.avatar {
+    /*position: absolute;*/
+    width: 50px;
+    height: 50px;
+    /*left: 1014px;*/
+    /*top: 0;*/
+    padding: 20px;
+    border-radius: 50%;
+}

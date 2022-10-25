@@ -1,0 +1,14 @@
+.main{
+    grid-area: m;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 50px 1fr;
+
+    grid-template-areas:
+    "n"
+    "p";
+    gap: 0 0;
+    /*margin: 0 auto;*/
+    background-color: #F0F4FB;
+
+}
